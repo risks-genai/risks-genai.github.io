@@ -942,6 +942,10 @@ section,
   justify-content: center;
 }
 
+@media (max-width: 480px) { /* lg 480*/
+  .hero { min-height: 90vh; }
+}
+
 .hero img {
   position: absolute;
   inset: 0;
