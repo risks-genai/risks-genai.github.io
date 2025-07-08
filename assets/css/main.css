@@ -267,7 +267,7 @@ h6 {
   border-color: var(--accent-color);
 }
 
-@media (max-width: 964px) {
+@media (max-width: 784px) { /* change this for nav 964 */
   .header .logo {
     order: 1;
   }
@@ -297,8 +297,8 @@ h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 
-/* Layout Desktop 1200px per allineamento corretto */
-@media (min-width: 964px) {
+/* Layout Desktop 1200px per allineamento corretto 965 */
+@media (min-width: 785px) { /* change this for nav */
   .header-container {
     display: flex;
     align-items: center;
@@ -441,7 +441,7 @@ h6 {
 }
 
 /* Mobile Navigation 1000px */
-@media (max-width: 964px) {
+@media (max-width: 784px) { /* change this for nav */
   .mobile-nav-toggle {
     color: var(--nav-color);
     font-size: 28px;
@@ -1912,4 +1912,9 @@ background: repeating-linear-gradient(
         rgba(0, 0, 0, 0.1) 4px
     );
   }
+
+
+@media (max-width: 965px) { /* 500 */
+  .menu-more { display: none; }
+}
 
