@@ -1211,6 +1211,36 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Ack Section
+--------------------------------------------------------------*/
+.clients .ack {
+  width: 300px;
+  font-size: 5px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.clients .ack {
+  padding: 20px 40px;
+  max-width: 90%;
+  transition: 0.3s;
+  opacity: 0.5;
+  filter: grayscale(100);
+}
+
+.clients .ack:hover {
+  filter: none;
+  opacity: 1;
+}
+
+@media (max-width: 640px) {
+  .clients .ack img {
+    padding: 20px;
+  }
+}
+
+/*--------------------------------------------------------------
 # Features Section
 --------------------------------------------------------------*/
 .features .nav-tabs {
