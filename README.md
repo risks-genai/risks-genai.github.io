@@ -1,6 +1,6 @@
-# International Workshop on Risks and Unintended Harms of Generative AI Systems 2025
+# International Workshop Series on Risks and Unintended Harms of Generative AI Systems
 
-This is the official website for the **International Workshop on Risks and Unintended Harms of Generative AI Systems**, providing information on the event, editions, speakers, schedule, and resources.
+This is the official website for the **International Workshop Series on Risks and Unintended Harms of Generative AI Systems**, providing information on the event, editions, speakers, schedule, and resources.
 
 ## 🌐 Website
 
